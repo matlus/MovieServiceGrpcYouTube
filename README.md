@@ -10,3 +10,9 @@ Reduced network usage with Protobuf binary serialization.
 
 ## Introduction To gRPC
 [![Introduction To gRPC](http://img.youtube.com/vi/Vsw4saPiTPM/0.jpg)](http://www.youtube.com/watch?v=Vsw4saPiTPM "Introduction To gRPC")
+
+## gRPC - Getting Started .NET 5/ .NET Core 3.x
+[![gRPC - Getting Started .NET 5/ .NET Core 3.x](http://img.youtube.com/vi/nd8YecX21cc/0.jpg)](http://www.youtube.com/watch?v=nd8YecX21cc "gRPC - Getting Started .NET 5/ .NET Core 3.x")
+
+## gRPC - Real-World .NET Core/.NET 5 Applications
+[![gRPC - Real-World .NET Core/.NET 5 Applications](http://img.youtube.com/vi/dVA7DmAd13s/0.jpg)](http://www.youtube.com/watch?v=dVA7DmAd13s "gRPC - Real-World .NET Core/.NET 5 Applications")
