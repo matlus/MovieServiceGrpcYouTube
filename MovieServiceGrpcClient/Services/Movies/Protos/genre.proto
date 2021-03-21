@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "Grpc.Enums";
+
+enum Genre {
+  ACTION = 0;
+  COMEDY = 1;
+  DRAMA = 2;
+  SCIFI = 3;
+  THRILLER = 4;
+}

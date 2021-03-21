@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "Grpc.Services";
+import "google/protobuf/empty.proto";
+import "services/movies/protos/genre.proto";
+
+service MovieService {
+	rpc GetAllMovies(google.protobuf.Empty) returns (MovieResponse);
+	rpc GetAllMoviesStream(google.protobuf.Empty) returns (stream Movie);
+	rpc GetMoviesByGenre(MoviesByGenreRequest) returns (MovieResponse);
+	rpc CreateMovie(Movie) returns (CreateMovieResponse);
+}
+
+message MovieResponse {
+  repeated Movie movies = 1;
+}
+
+message CreateMovieResponse {
+	int32 id = 1;
+}
+
+message MoviesByGenreRequest {
+	Genre genre = 1;
+}
+
+message Movie {
+ string title = 1;
+ string imageUrl = 2; 
+ int32 year = 3;  
+ Genre genre = 4; 
+}
