@@ -1,4 +1,12 @@
 # MovieServiceGrpcYouTube
 gRPC is a high performance Remote Procedure Call framework that can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication.
 
-In this video, we talk about how to combine regular ASP.NET Core Web API endpoints with gRPC. How to design and implement your applications insofar as gRPC code generated classes and how to deal with and handle exceptions.
+The main benefits of gRPC are:
+Modern, high-performance, lightweight RPC framework.
+Contract-first API development, using Protocol Buffers by default, allowing for language agnostic implementations.
+Tooling available for many languages to generate strongly-typed servers and clients.
+Supports client, server, and bi-directional streaming calls.
+Reduced network usage with Protobuf binary serialization.
+
+## Introduction To gRPC
+[![Introduction To gRPC](http://img.youtube.com/vi/Vsw4saPiTPM/0.jpg)](http://www.youtube.com/watch?v=Vsw4saPiTPM "Introduction To gRPC")
